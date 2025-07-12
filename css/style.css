@@ -3,7 +3,7 @@ header{
     1.background-colour
     2. front-colour
     */
-    background-color: rgb(45, 32, 167);/* values-black*/
+    background-color: rgb(94, 227, 245);/* values-blue*/
     color: white;
     /*0-16, 0-9,A-F*/
     color: #FFFFFF; /*Values.rgb*/
@@ -19,11 +19,11 @@ header{
     2.relative units (%)- OF THE parent
     */
 
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding: 10px; /*shortcut of line 24-28*/
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding: 15px; /*shortcut of line 24-28*/
 
 /*
     1. block(each element on its own line)
@@ -48,11 +48,12 @@ header{
     /*This is a class selector*/
     .logo img {
         max-width: 98px;
-        border-radius: 10px;
+        border-radius: 13px;
 
     }
     .menu{
         display:flex;
         align-items:centre;
+        justify-content: space-between;
     }
     /*class sector {starts with a dot}*/
