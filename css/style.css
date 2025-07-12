@@ -1,0 +1,58 @@
+header{
+    /*properties i.e ,
+    1.background-colour
+    2. front-colour
+    */
+    background-color: rgb(45, 32, 167);/* values-black*/
+    color: white;
+    /*0-16, 0-9,A-F*/
+    color: #FFFFFF; /*Values.rgb*/
+    color: rgb(255,255,255);/*values-rgb*/
+    /*box model*/
+    /*every element lives in a box*/
+    /*the box has a structure*/
+    /*content padding,Border,Margin*/
+    /*CopaBoMa*/
+    /*css units of measure (values)*/
+    /*
+    1.absolute(fixed-px,cm)
+    2.relative units (%)- OF THE parent
+    */
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding: 10px; /*shortcut of line 24-28*/
+
+/*
+    1. block(each element on its own line)
+    2. inline(elements are side by side)
+    3. grid()
+    4. Flex()
+    */
+    /*flexbox styles*/
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+    /*fix our header and prevent scrolling (line 42-47*/
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    z-index: 1; /*@TODO:what does this do?*/
+    transition:top 0.3s; /*Assigns the transision delay*/
+}
+    /*@TODO: what selector is this?*/
+    /*This is a class selector*/
+    .logo img {
+        max-width: 98px;
+        border-radius: 10px;
+
+    }
+    .menu{
+        display:flex;
+        align-items:centre;
+    }
+    /*class sector {starts with a dot}*/
